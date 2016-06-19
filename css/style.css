@@ -1,0 +1,194 @@
+body{
+	font-family: arial, helvetica, sans-serif;
+}
+header{
+	width: 100%;
+	background-color: lime;
+	border:1px solid black;
+	height: 50px;
+}
+header h1{
+	font-size: 35px;
+	font-weight: bold;
+	padding: 5px;
+}
+section{
+	width: 100%;
+	margin:20px 0;
+	overflow: auto;
+}
+div{
+	background-color: red;
+	border:1px solid black;
+}
+div h1{
+	font-size: 100px;
+	font-weight: bold;
+	padding-top: 50px;
+}
+.seccion1{
+	height: 600px;
+	width: 32%;
+	float: left;
+	margin-left: 1%;
+}
+.seccion2{
+	height: 600px;
+	width: 32%;
+	float: left;
+	margin-left: 1%;
+}
+.seccion3{
+	height: 600px;
+	width: 32%;
+	float: left;
+	margin-left: 1%;
+}
+.seccion1 h1{
+	text-align: center;
+}
+.seccion2 h1{
+	text-align: center;
+}
+.seccion3 h1{
+	text-align: center;
+}
+footer{
+	overflow: auto;
+	height: 50px;
+	width: 47%;
+	background-color: yellow;
+	border:1px solid black;
+}
+.pie1{
+	float: left;
+}
+.pie2{
+	float: right;
+}
+.pie1 h1{
+	text-align: right;
+	font-size: 35px;
+	font-weight: bold;
+	padding: 5px;
+}
+.pie2 h1{
+	font-size: 35px;
+	font-weight: bold;
+	padding: 5px;
+}
+@media screen and (max-width: 899px) and (min-width: 600px){
+	header{
+		background-color: cyan;
+	}
+	.seccion1{
+		height: 300px;
+		width: 47%;
+		float: left;
+		margin-left: 4px;
+	}
+	.seccion1 h1{
+		text-align: left;
+		padding-left: 20px;
+	}
+	.seccion2{
+		height: 300px;
+		width: 47%;
+		float: right;
+		margin-left: 0;
+		margin-right: 2px;
+
+	}
+	.seccion2 h1{
+		text-align: right;
+		padding-right: 20px;
+	}
+	.seccion3{
+		background-color:lime;
+		height: 250px;
+		width: 100%;
+		float:right;
+		margin-left: 4px;
+		margin-top: 10px
+	
+	}
+	footer{
+		width: 100%;
+		border:1px solid black;
+		margin-bottom: 10px;
+	}
+	.pie1{
+		float: right;
+	}
+	.pie2{
+		float: right;
+	}
+	.pie1 h1{
+		text-align: center;
+		padding: 5px 0 0 0;
+	}
+	.pie2 h1{
+		text-align: center;
+		padding: 5px 0 0 0;
+	}
+
+}
+@media screen and (max-width: 599px){
+	header{
+		background-color: orange;
+	}
+	header h1{
+		text-align: center;
+	}
+	section{
+		width: 100%;
+	}
+	.seccion1{
+		height: 170px;
+		width: 100%;
+		float: right;
+		margin-left:0;
+		margin-bottom: 20px;
+	}
+	.seccion1 h1{
+		text-align: left;
+		padding-left: 20px;
+	}
+	.seccion2{
+		background-color: cyan;
+		height: 170px;
+		width: 100%;
+		float: right;
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+	.seccion3{
+		height: 170px;
+		width: 100%;
+		float: right;
+		margin-left:0;
+	}
+	.seccion3 h1{
+	text-align: right;
+	padding-right: 20px;
+	}
+	footer{
+		width: 100%;
+		border:1px solid black;
+		margin-bottom: 10px;
+	}
+	.pie1{
+		float: right;
+	}
+	.pie2{
+		float: right;
+	}
+	.pie1 h1{
+		text-align: center;
+		padding: 5px 0 0 0;
+	}
+	.pie2 h1{
+		text-align: center;
+		padding: 5px 0 0 0;
+	}
+}
